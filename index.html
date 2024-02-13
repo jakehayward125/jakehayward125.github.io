@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>ValueScribe_S24</Title>
+        <meta name="viewport" content="width=device-width, initial-scaled=1">
+        <script type="module">
+
+            import EmbeddedPageSdk from "https://app.realeye.io/sdk/js/testRunnerEmbeddableSdk-1.4.js"
+            
+            /**
+             * NOTICE: The SDK MUST be created when the UI is fully loaded and ready.
+             * So, if you are using (modern) frontend framework please use its proper event to create the SDK when everything is ready and fully rendered, instead of the vanilla JS "DOMContentLoaded" event.
+             */
+            window.addEventListener("DOMContentLoaded", () => {
+               const debugMode = false;
+               const stimulusId = null; // Or Stimulus/Item UUID from RealEye Study, e.g. "61560b76-3d31-4f0e-b530-55bd8709aadb"
+               const forceRun = false;
+            
+               const reSdk = new EmbeddedPageSdk(debugMode, stimulusId, forceRun)
+            });
+            
+            </script>
+            
+            
+    </head>
+
+    <body style="display: flex; align-items: center;">
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="viewport" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FvDojGujSjkEaxehd7xDlNi%2FValueScribe24_V2.0%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D192-4503%26viewport%3D-1103%252C125%252C0.19%26t%3DVMq23VShv3aObWRI-1%26scaling%3Dscale-down%26starting-point-node-id%3D192%253A4503%26mode%3Ddesign" allowfullscreen></iframe>
+    </body> 
+</html>
